@@ -71,7 +71,7 @@
                 <div class="footer-widget">
                     <h4>About Our Company</h4>
                     <div class="logo">
-                        <img src="<?= base_url('public/assets/images/white-logo.png') ?>" alt="">
+                        <img src="<?= base_url('assets/img/white-logo.png') ?>" alt="">
                     </div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
                 </div>

@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 
-class Home extends BaseController
+class HomeControl extends BaseController
 {
     public function index(): string
     {
@@ -12,6 +12,6 @@ class Home extends BaseController
             'meta_author' => 'Your Name'
         ];
         
-        return view('home', $data);
+        return view('index', $data);
     }
 }

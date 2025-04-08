@@ -5,7 +5,7 @@
                 <nav class="main-nav">
                     <!-- ***** Logo Start ***** -->
                     <a href="<?= base_url() ?>" class="logo">
-                        <img src="<?= base_url('public/assets/img/logo.png') ?>" alt="Chain App Dev">
+                        <img src="<?= base_url('assets/img/logo.png') ?>" alt="Chain App Dev">
                     </a>
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->

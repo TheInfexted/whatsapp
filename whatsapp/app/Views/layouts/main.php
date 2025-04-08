@@ -19,13 +19,13 @@
     <title><?= $title ?? 'App Landing Page' ?></title>
 
     <!-- Bootstrap core CSS -->
-    <link href="<?= base_url('public/assets/vendor/bootstrap/css/bootstrap.min.css') ?>" rel="stylesheet">
+    <link href="<?= base_url('assets/vendor/bootstrap/css/bootstrap.min.css') ?>" rel="stylesheet">
 
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="stylesheet" href="<?= base_url('public/assets/css/templatemo-chain-app-dev.css') ?>">
-    <link rel="stylesheet" href="<?= base_url('public/assets/css/animated.css') ?>">
-    <link rel="stylesheet" href="<?= base_url('public/assets/css/owl.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/css/templatemo-chain-app-dev.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/css/animated.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/css/owl.css') ?>">
     
     <?= $this->renderSection('styles') ?>
 </head>
@@ -65,13 +65,13 @@
     <!-- ***** Footer End ***** -->
 
     <!-- Scripts -->
-    <script src="<?= base_url('public/assets/vendor/jquery/jquery.min.js') ?>"></script>
-    <script src="<?= base_url('public/assets/vendor/bootstrap/js/bootstrap.bundle.min.js') ?>"></script>
-    <script src="<?= base_url('public/assets/js/owl-carousel.js') ?>"></script>
-    <script src="<?= base_url('public/assets/js/animation.js') ?>"></script>
-    <script src="<?= base_url('public/assets/js/imagesloaded.js') ?>"></script>
-    <script src="<?= base_url('public/assets/js/popup.js') ?>"></script>
-    <script src="<?= base_url('public/assets/js/custom.js') ?>"></script>
+    <script src="<?= base_url('assets/vendor/jquery/jquery.min.js') ?>"></script>
+    <script src="<?= base_url('assets/vendor/bootstrap/js/bootstrap.bundle.min.js') ?>"></script>
+    <script src="<?= base_url('assets/js/owl-carousel.js') ?>"></script>
+    <script src="<?= base_url('assets/js/animation.js') ?>"></script>
+    <script src="<?= base_url('assets/js/imagesloaded.js') ?>"></script>
+    <script src="<?= base_url('assets/js/popup.js') ?>"></script>
+    <script src="<?= base_url('assets/js/custom.js') ?>"></script>
     
     <?= $this->renderSection('scripts') ?>
 </body>
