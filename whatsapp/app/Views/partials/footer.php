@@ -1,29 +1,31 @@
-<footer id="newsletter">
+<footer>
     <div class="container">
+        <!-- Join Our Mailing List Section (but without database functionality) -->
         <div class="row">
             <div class="col-lg-8 offset-lg-2">
                 <div class="section-heading">
-                    <h4>Join our mailing list to receive the news &amp; latest trends</h4>
+                    <h4>Join Our Mailing List To Receive The News &amp; Latest Trends</h4>
                 </div>
             </div>
             <div class="col-lg-6 offset-lg-3">
-                <form id="search" action="<?= base_url('subscribe') ?>" method="POST">
-                    <?= csrf_field() ?>
+                <form id="search" action="#" method="GET">
                     <div class="row">
                         <div class="col-lg-6 col-sm-6">
                             <fieldset>
-                                <input type="email" name="email" class="email" placeholder="Email Address..." autocomplete="on" required>
+                                <input type="email" name="email" class="email" placeholder="Email Address..." autocomplete="on">
                             </fieldset>
                         </div>
                         <div class="col-lg-6 col-sm-6">
                             <fieldset>
-                                <button type="submit" class="main-button">Subscribe Now <i class="fa fa-angle-right"></i></button>
+                                <button type="button" class="main-button">Subscribe Now <i class="fa fa-angle-right"></i></button>
                             </fieldset>
                         </div>
                     </div>
                 </form>
             </div>
         </div>
+        
+        <!-- Information Sections -->
         <div class="row">
             <div class="col-lg-3">
                 <div class="footer-widget">

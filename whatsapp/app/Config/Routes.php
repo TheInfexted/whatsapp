@@ -11,6 +11,3 @@ $routes->get('/', 'HomeControl::index');
 $routes->post('login', 'Auth::login');
 $routes->post('register', 'Auth::register');
 $routes->get('logout', 'Auth::logout');
-
-// Newsletter route
-$routes->post('subscribe', 'Newsletter::subscribe');

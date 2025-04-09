@@ -18,11 +18,11 @@
             <form action="<?= base_url('login') ?>" method="post">
                 <?= csrf_field() ?>
                 <label>Email / Username</label>
-                <input type="text" name="username" />
+                <input type="text" name="username" required />
                 <br />
 
                 <label>Password</label>
-                <input type="password" name="password" />
+                <input type="password" name="password" required />
                 <br />
 
                 <div class="checkbox">
@@ -44,15 +44,15 @@
             <form action="<?= base_url('register') ?>" method="post">
                 <?= csrf_field() ?>
                 <label>Full Name</label>
-                <input type="text" name="fullname" />
+                <input type="text" name="fullname" required />
                 <br />
 
                 <label>Email Address</label>
-                <input type="email" name="email" />
+                <input type="email" name="email" required />
                 <br />
 
                 <label>Password</label>
-                <input type="password" name="password" />
+                <input type="password" name="password" required minlength="6" />
                 <br />
 
                 <div class="checkbox">

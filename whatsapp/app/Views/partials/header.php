@@ -14,7 +14,6 @@
                         <li class="scroll-to-section"><a href="#services">Services</a></li>
                         <li class="scroll-to-section"><a href="#about">About</a></li>
                         <li class="scroll-to-section"><a href="#pricing">Pricing</a></li>
-                        <li class="scroll-to-section"><a href="#newsletter">Newsletter</a></li>
                         <?php if (session()->get('logged_in')): ?>
                         <li>
                             <div class="gradient-button">
