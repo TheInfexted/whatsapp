@@ -1049,7 +1049,7 @@ Services Style
 }
 
 .first-service .icon {
-  background-image: url(assets/img/service-icon-01.png);
+  background-image: url(../img/service-icon-01.png);
 }
 
 .first-service:hover .icon {
