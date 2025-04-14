@@ -5,7 +5,7 @@
                 <nav class="main-nav">
                     <!-- ***** Logo Start ***** -->
                     <a href="<?= base_url() ?>" class="logo">
-                        <img src="<?= base_url('assets/img/logo.png') ?>" alt="Q360 App Dev">
+                        <img src="<?= base_url('assets/img/q360logo.png') ?>" alt="Q360" style="max-height: 60px; width: auto;">
                     </a>
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
