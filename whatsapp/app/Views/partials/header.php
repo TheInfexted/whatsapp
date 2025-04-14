@@ -5,7 +5,7 @@
                 <nav class="main-nav">
                     <!-- ***** Logo Start ***** -->
                     <a href="<?= base_url() ?>" class="logo">
-                        <img src="<?= base_url('assets/img/logo.png') ?>" alt="Chain App Dev">
+                        <img src="<?= base_url('assets/img/logo.png') ?>" alt="Q360 App Dev">
                     </a>
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
@@ -25,7 +25,7 @@
                             <div class="gradient-button"><a id="modal_trigger" href="#modal"><i class="fa fa-sign-in-alt"></i> Sign In Now</a></div>
                         </li>
                         <?php endif; ?>
-                    </ul>
+                    </ul>        
                     <a class='menu-trigger'>
                         <span>Menu</span>
                     </a>

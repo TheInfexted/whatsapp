@@ -7,9 +7,9 @@ class HomeControl extends BaseController
     public function index(): string
     {
         $data = [
-            'title' => 'App Landing Page - Your App Name',
-            'meta_description' => 'App Landing Page with all the features you need',
-            'meta_author' => 'Your Name'
+            'title' => 'Chain App Dev - App Landing Page',
+            'meta_description' => 'Chain App Dev is an app landing page template',
+            'meta_author' => 'TemplateMo'
         ];
         
         return view('index', $data);
