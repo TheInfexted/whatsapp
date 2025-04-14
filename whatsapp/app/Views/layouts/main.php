@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="<?= base_url('assets/css/templatemo-chain-app-dev.css') ?>">
     <link rel="stylesheet" href="<?= base_url('assets/css/animated.css') ?>">
     <link rel="stylesheet" href="<?= base_url('assets/css/owl.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/css/custom.css') ?>">
     
     <?= $this->renderSection('styles') ?>
 </head>

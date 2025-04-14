@@ -12,15 +12,15 @@
                         <div class="left-content show-up header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <h2>Get The Latest App From App Stores</h2>
-                                    <p> App Dev is an app landing page HTML5 template based on Bootstrap v5.1.3 CSS layout provided by TemplateMo, a great website to download free CSS templates.</p>
+                                    <h2>WhatsApp Marketing Platform</h2>
+                                    <p>Reach your customers instantly with our powerful WhatsApp marketing solution. Send bulk messages, automate responses, and track campaign performance all in one place.</p>
                                 </div>
                                 <div class="col-lg-12">
                                     <div class="white-button first-button scroll-to-section">
-                                        <a href="#contact">Free Quote <i class="fab fa-apple"></i></a>
+                                        <a href="#contact">Start Free Trial <i class="fab fa-apple"></i></a>
                                     </div>
                                     <div class="white-button scroll-to-section">
-                                        <a href="#contact">Free Quote <i class="fab fa-google-play"></i></a>
+                                        <a href="#contact">Get Started <i class="fab fa-google-play"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -28,7 +28,7 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
-                            <img src="<?= base_url('assets/img/slider-dec.png') ?>" alt="">
+                            <img src="<?= base_url('assets/img/slider-dec.png') ?>" alt="WhatsApp Marketing Platform">
                         </div>
                     </div>
                 </div>
@@ -44,9 +44,9 @@
         <div class="row">
             <div class="col-lg-8 offset-lg-2">
                 <div class="section-heading wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
-                    <h4>Amazing <em>Services &amp; Features</em> for you</h4>
+                    <h4>Amazing <em>WhatsApp Marketing</em> Features</h4>
                     <img src="<?= base_url('assets/img/heading-line-dec.png') ?>" alt="">
-                    <p>If you need the greatest collection of HTML templates for your business, please visit <a rel="nofollow" href="https://www.toocss.com/" target="_blank">TooCSS</a> Blog. If you need to have a contact form PHP script, go to <a href="https://templatemo.com/contact" target="_parent">our contact page</a> for more information.</p>
+                    <p>Transform your business communication with our powerful WhatsApp Marketing Platform. Engage with your customers where they already are.</p>
                 </div>
             </div>
         </div>
@@ -56,8 +56,8 @@
             <div class="col-lg-3">
                 <div class="service-item first-service">
                     <div class="icon"></div>
-                    <h4>App Maintenance</h4>
-                    <p>You are not allowed to redistribute this template ZIP file on any other website.</p>
+                    <h4>Bulk Messaging</h4>
+                    <p>Send thousands of personalized messages to your customers instantly with just a few clicks.</p>
                     <div class="text-button">
                         <a href="#">Read More <i class="fa fa-arrow-right"></i></a>
                     </div>
@@ -66,8 +66,8 @@
             <div class="col-lg-3">
                 <div class="service-item second-service">
                     <div class="icon"></div>
-                    <h4>Rocket Speed of App</h4>
-                    <p>You are allowed to use the  App Dev HTML template. Feel free to modify or edit this layout.</p>
+                    <h4>24/7 Automation</h4>
+                    <p>Set up automated responses and workflows to engage with customers even when you're not available.</p>
                     <div class="text-button">
                         <a href="#">Read More <i class="fa fa-arrow-right"></i></a>
                     </div>
@@ -76,8 +76,8 @@
             <div class="col-lg-3">
                 <div class="service-item third-service">
                     <div class="icon"></div>
-                    <h4>Multi Workflow Idea</h4>
-                    <p>If this template is beneficial for your work, please support us <a rel="nofollow" href="https://paypal.me/templatemo" target="_blank">a little via PayPal</a>. Thank you.</p>
+                    <h4>Campaign Analytics</h4>
+                    <p>Track delivery, read receipts, and engagement metrics to optimize your marketing campaigns.</p>
                     <div class="text-button">
                         <a href="#">Read More <i class="fa fa-arrow-right"></i></a>
                     </div>
@@ -86,8 +86,8 @@
             <div class="col-lg-3">
                 <div class="service-item fourth-service">
                     <div class="icon"></div>
-                    <h4>24/7 Help &amp; Support</h4>
-                    <p>Lorem ipsum dolor consectetur adipiscing elit sedder williamsburg photo booth quinoa and fashion axe.</p>
+                    <h4>Smart Integration</h4>
+                    <p>Easily integrate with your existing CRM, e-commerce platform, or other business tools.</p>
                     <div class="text-button">
                         <a href="#">Read More <i class="fa fa-arrow-right"></i></a>
                     </div>
@@ -104,37 +104,37 @@
         <div class="row">
             <div class="col-lg-6 align-self-center">
                 <div class="section-heading">
-                    <h4>About <em>What We Do</em> &amp; Who We Are</h4>
+                    <h4>About <em>Our Platform</em> & How It Works</h4>
                     <img src="<?= base_url('assets/img/heading-line-dec.png') ?>">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod tempor incididunt ut labore et dolore magna.</p>
+                    <p>Our WhatsApp Marketing Platform is designed to help businesses of all sizes leverage the power of WhatsApp to grow their customer relationships and boost sales.</p>
                 </div>
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="box-item">
-                            <h4><a href="#">Maintance Problems</a></h4>
-                            <p>Lorem Ipsum Text</p>
+                            <h4><a href="#">Easy Setup</a></h4>
+                            <p>Get started in minutes with no technical expertise required.</p>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="box-item">
-                            <h4><a href="#">24/7 Support &amp; Help</a></h4>
-                            <p>Lorem Ipsum Text</p>
+                            <h4><a href="#">API Access</a></h4>
+                            <p>Developers can access our powerful API for custom integrations.</p>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="box-item">
-                            <h4><a href="#">Fixing Issues About</a></h4>
-                            <p>Lorem Ipsum Text</p>
+                            <h4><a href="#">Template Library</a></h4>
+                            <p>Use our pre-approved message templates to ensure compliance.</p>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="box-item">
-                            <h4><a href="#">Co. Development</a></h4>
-                            <p>Lorem Ipsum Text</p>
+                            <h4><a href="#">Audience Segmentation</a></h4>
+                            <p>Target specific customer groups with tailored messages.</p>
                         </div>
                     </div>
                     <div class="col-lg-12">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod tempor idunte ut labore et dolore adipiscing magna.</p>
+                        <p>Join thousands of businesses already using our platform to transform their customer communication strategy.</p>
                         <div class="gradient-button">
                             <a href="#">Start 14-Day Free Trial</a>
                         </div>
@@ -144,7 +144,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="right-image">
-                    <img src="<?= base_url('assets/img/about-right-dec.png') ?>" alt="">
+                    <img src="<?= base_url('assets/img/about-right-dec.png') ?>" alt="WhatsApp Platform Dashboard">
                 </div>
             </div>
         </div>
@@ -158,9 +158,9 @@
         <div class="row">
             <div class="col-lg-8 offset-lg-2">
                 <div class="section-heading">
-                    <h4>Check What <em>The Clients Say</em> About Our App Dev</h4>
+                    <h4>Check What <em>Our Clients Say</em> About Our WhatsApp Platform</h4>
                     <img src="<?= base_url('assets/img/heading-line-dec.png') ?>" alt="">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod tempor incididunt ut labore et dolore magna.</p>
+                    <p>Hear from businesses that have transformed their customer communication strategy with our WhatsApp Marketing Platform.</p>
                 </div>
             </div>
             <div class="col-lg-12">
@@ -173,11 +173,32 @@
                                         <div class="thumb">
                                             <div class="row">
                                                 <div class="col-lg-4 col-sm-4 col-12">
-                                                    <h4>David Martino Co</h4>
-                                                    <span class="date">30 November 2021</span>
+                                                    <h4>E-Commerce Store</h4>
+                                                    <span class="date">February 2025</span>
                                                 </div>
                                                 <div class="col-lg-4 col-sm-4 d-none d-sm-block">
-                                                    <span class="category">Financial Apps</span>
+                                                    <span class="category">Retail Business</span>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-4 col-12">
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <span class="rating">4.9</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="thumb">
+                                            <div class="row">
+                                                <div class="col-lg-4 col-sm-4 col-12">
+                                                    <h4>Restaurant Chain</h4>
+                                                    <span class="date">January 2025</span>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-4 d-none d-sm-block">
+                                                    <span class="category">Food & Beverage</span>
                                                 </div>
                                                 <div class="col-lg-4 col-sm-4 col-12">
                                                     <i class="fa fa-star"></i>
@@ -194,32 +215,11 @@
                                         <div class="thumb">
                                             <div class="row">
                                                 <div class="col-lg-4 col-sm-4 col-12">
-                                                    <h4>Jake Harris Nyo</h4>
-                                                    <span class="date">29 November 2021</span>
+                                                    <h4>Health Clinic</h4>
+                                                    <span class="date">December 2024</span>
                                                 </div>
                                                 <div class="col-lg-4 col-sm-4 d-none d-sm-block">
-                                                    <span class="category">Digital Business</span>
-                                                </div>
-                                                <div class="col-lg-4 col-sm-4 col-12">
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                    <span class="rating">4.5</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div class="thumb">
-                                            <div class="row">
-                                                <div class="col-lg-4 col-sm-4 col-12">
-                                                    <h4>May Catherina</h4>
-                                                    <span class="date">27 November 2021</span>
-                                                </div>
-                                                <div class="col-lg-4 col-sm-4 d-none d-sm-block">
-                                                    <span class="category">Business &amp; Economics</span>
+                                                    <span class="category">Healthcare Services</span>
                                                 </div>
                                                 <div class="col-lg-4 col-sm-4 col-12">
                                                     <i class="fa fa-star"></i>
@@ -228,48 +228,6 @@
                                                     <i class="fa fa-star"></i>
                                                     <i class="fa fa-star"></i>
                                                     <span class="rating">4.7</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div class="thumb">
-                                            <div class="row">
-                                                <div class="col-lg-4 col-sm-4 col-12">
-                                                    <h4>Random User</h4>
-                                                    <span class="date">24 November 2021</span>
-                                                </div>
-                                                <div class="col-lg-4 col-sm-4 d-none d-sm-block">
-                                                    <span class="category">New App Ecosystem</span>
-                                                </div>
-                                                <div class="col-lg-4 col-sm-4 col-12">
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                    <span class="rating">3.9</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="last-thumb">
-                                        <div class="thumb">
-                                            <div class="row">
-                                                <div class="col-lg-4 col-sm-4 col-12">
-                                                    <h4>Mark Amber Do</h4>
-                                                    <span class="date">21 November 2021</span>
-                                                </div>
-                                                <div class="col-lg-4 col-sm-4 d-none d-sm-block">
-                                                    <span class="category">Web Development</span>
-                                                </div>
-                                                <div class="col-lg-4 col-sm-4 col-12">
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                    <i class="fa fa-star"></i>
-                                                    <span class="rating">4.3</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -285,14 +243,13 @@
                                                     <div class="col-lg-12">
                                                         <div class="client-content">
                                                             <img src="<?= base_url('assets/img/quote.png') ?>" alt="">
-                                                            <p>"Lorem ipsum dolor sit amet, consectetur adpiscing elit, sed do eismod tempor idunte ut labore et dolore magna aliqua darwin kengan
-                                                                lorem ipsum dolor sit amet, consectetur picing elit massive big blasta."</p>
+                                                            <p>"We increased our customer engagement by 300% within the first month of using this WhatsApp Marketing Platform. The automated responses and campaign analytics have been game-changers for our business."</p>
                                                         </div>
                                                         <div class="down-content">
                                                             <img src="<?= base_url('assets/img/client-image.jpg') ?>" alt="">
                                                             <div class="right-content">
-                                                                <h4>David Martino</h4>
-                                                                <span>CEO of David Company</span>
+                                                                <h4>Sarah Johnson</h4>
+                                                                <span>Marketing Director, Fashion Retailer</span>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -307,14 +264,13 @@
                                                     <div class="col-lg-12">
                                                         <div class="client-content">
                                                             <img src="<?= base_url('assets/img/quote.png') ?>" alt="">
-                                                            <p>"CTO, Lorem ipsum dolor sit amet, consectetur adpiscing elit, sed do eismod tempor idunte ut labore et dolore magna aliqua darwin kengan
-                                                                lorem ipsum dolor sit amet, consectetur picing elit massive big blasta."</p>
+                                                            <p>"The bulk messaging feature helped us announce new menu items and promotions instantly to thousands of customers. We saw an immediate 25% increase in orders on promotion days."</p>
                                                         </div>
                                                         <div class="down-content">
                                                             <img src="<?= base_url('assets/img/client-image.jpg') ?>" alt="">
                                                             <div class="right-content">
-                                                                <h4>Jake H. Nyo</h4>
-                                                                <span>CTO of Digital Company</span>
+                                                                <h4>Carlos Rodriguez</h4>
+                                                                <span>Owner, Restaurant Chain</span>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -329,58 +285,13 @@
                                                     <div class="col-lg-12">
                                                         <div class="client-content">
                                                             <img src="<?= base_url('assets/img/quote.png') ?>" alt="">
-                                                            <p>"May, Lorem ipsum dolor sit amet, consectetur adpiscing elit, sed do eismod tempor idunte ut labore et dolore magna aliqua darwin kengan
-                                                                lorem ipsum dolor sit amet, consectetur picing elit massive big blasta."</p>
+                                                            <p>"Appointment reminders sent through WhatsApp reduced our no-show rate by 60%. The platform integrates perfectly with our existing scheduling system making it a seamless experience."</p>
                                                         </div>
                                                         <div class="down-content">
                                                             <img src="<?= base_url('assets/img/client-image.jpg') ?>" alt="">
                                                             <div class="right-content">
-                                                                <h4>May C.</h4>
-                                                                <span>Founder of Catherina Co.</span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div>
-                                            <div class="thumb">
-                                                <div class="row">
-                                                    <div class="col-lg-12">
-                                                        <div class="client-content">
-                                                            <img src="<?= base_url('assets/img/quote.png') ?>" alt="">
-                                                            <p>"Lorem ipsum dolor sit amet, consectetur adpiscing elit, sed do eismod tempor idunte ut labore et dolore magna aliqua darwin kengan
-                                                                lorem ipsum dolor sit amet, consectetur picing elit massive big blasta."</p>
-                                                        </div>
-                                                        <div class="down-content">
-                                                            <img src="<?= base_url('assets/img/client-image.jpg') ?>" alt="">
-                                                            <div class="right-content">
-                                                                <h4>Random Staff</h4>
-                                                                <span>Manager, Digital Company</span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div>
-                                            <div class="thumb">
-                                                <div class="row">
-                                                    <div class="col-lg-12">
-                                                        <div class="client-content">
-                                                            <img src="<?= base_url('assets/img/quote.png') ?>" alt="">
-                                                            <p>"Mark, Lorem ipsum dolor sit amet, consectetur adpiscing elit, sed do eismod tempor idunte ut labore et dolore magna aliqua darwin kengan
-                                                                lorem ipsum dolor sit amet, consectetur picing elit massive big blasta."</p>
-                                                        </div>
-                                                        <div class="down-content">
-                                                            <img src="<?= base_url('assets/img/client-image.jpg') ?>" alt="">
-                                                            <div class="right-content">
-                                                                <h4>Mark Am</h4>
-                                                                <span>CTO, Amber Do Company</span>
+                                                                <h4>Dr. Amelia Chen</h4>
+                                                                <span>Director, Health & Wellness Clinic</span>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -405,68 +316,68 @@
         <div class="row">
             <div class="col-lg-8 offset-lg-2">
                 <div class="section-heading">
-                    <h4>We Have The Best Pre-Order <em>Prices</em> You Can Get</h4>
+                    <h4>Affordable <em>Pricing Plans</em> For Your Business</h4>
                     <img src="<?= base_url('assets/img/heading-line-dec.png') ?>" alt="">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod tempor incididunt ut labore et dolore magna.</p>
+                    <p>Choose the plan that's right for your business. All plans include full access to our WhatsApp Marketing Platform with different message volumes and feature sets.</p>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="pricing-item-regular">
-                    <span class="price">$12</span>
-                    <h4>Standard Plan App</h4>
+                    <span class="price">$29</span>
+                    <h4>Starter Plan</h4>
                     <div class="icon">
                         <img src="<?= base_url('assets/img/pricing-table-01.png') ?>" alt="">
                     </div>
                     <ul>
-                        <li>Lorem Ipsum Dolores</li>
-                        <li>20 TB of Storage</li>
-                        <li class="non-function">Life-time Support</li>
-                        <li class="non-function">Premium Add-Ons</li>
-                        <li class="non-function">Fastest Network</li>
-                        <li class="non-function">More Options</li>
+                        <li>1,000 Messages/Month</li>
+                        <li>Basic Templates</li>
+                        <li>Delivery Reports</li>
+                        <li>Email Support</li>
+                        <li class="non-function">Advanced Analytics</li>
+                        <li class="non-function">API Access</li>
                     </ul>
                     <div class="border-button">
-                        <a href="#">Purchase This Plan Now</a>
+                        <a href="#">Start Free Trial</a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="pricing-item-pro">
-                    <span class="price">$25</span>
-                    <h4>Business Plan App</h4>
+                    <span class="price">$49</span>
+                    <h4>Business Plan</h4>
                     <div class="icon">
                         <img src="<?= base_url('assets/img/pricing-table-01.png') ?>" alt="">
                     </div>
                     <ul>
-                        <li>Lorem Ipsum Dolores</li>
-                        <li>50 TB of Storage</li>
-                        <li>Life-time Support</li>
-                        <li>Premium Add-Ons</li>
-                        <li class="non-function">Fastest Network</li>
-                        <li class="non-function">More Options</li>
+                        <li>5,000 Messages/Month</li>
+                        <li>Advanced Templates</li>
+                        <li>Delivery & Read Reports</li>
+                        <li>Priority Support</li>
+                        <li>Advanced Analytics</li>
+                        <li class="non-function">API Access</li>
                     </ul>
                     <div class="border-button">
-                        <a href="#">Purchase This Plan Now</a>
+                        <a href="#">Start Free Trial</a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="pricing-item-regular">
-                    <span class="price">$66</span>
-                    <h4>Premium Plan App</h4>
+                    <span class="price">$99</span>
+                    <h4>Enterprise Plan</h4>
                     <div class="icon">
                         <img src="<?= base_url('assets/img/pricing-table-01.png') ?>" alt="">
                     </div>
                     <ul>
-                        <li>Lorem Ipsum Dolores</li>
-                        <li>120 TB of Storage</li>
-                        <li>Life-time Support</li>
-                        <li>Premium Add-Ons</li>
-                        <li>Fastest Network</li>
-                        <li>More Options</li>
+                        <li>20,000 Messages/Month</li>
+                        <li>Custom Templates</li>
+                        <li>Full Reporting Suite</li>
+                        <li>24/7 Support</li>
+                        <li>Advanced Analytics</li>
+                        <li>API Access</li>
                     </ul>
                     <div class="border-button">
-                        <a href="#">Purchase This Plan Now</a>
+                        <a href="#">Start Free Trial</a>
                     </div>
                 </div>
             </div>
@@ -475,92 +386,5 @@
 </div> 
 <!-- ***** Pricing Plans End ***** -->
 
-<div class="container">
-      <div class="row">
-        <div class="col-lg-8 offset-lg-2">
-          <div class="section-heading">
-            <h4>Join our mailing list to receive the news &amp; latest trends</h4>
-          </div>
-        </div>
-        <div class="col-lg-6 offset-lg-3">
-          <form id="search" action="#" method="GET">
-            <div class="row">
-              <div class="col-lg-6 col-sm-6">
-                <fieldset>
-                  <input type="address" name="address" class="email" placeholder="Email Address..." autocomplete="on" required>
-                </fieldset>
-              </div>
-              <div class="col-lg-6 col-sm-6">
-                <fieldset>
-                  <button type="submit" class="main-button">Subscribe Now <i class="fa fa-angle-right"></i></button>
-                </fieldset>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-3">
-          <div class="footer-widget">
-            <h4>Contact Us</h4>
-            <p>Rio de Janeiro - RJ, 22795-008, Brazil</p>
-            <p><a href="#">010-020-0340</a></p>
-            <p><a href="#">info@company.co</a></p>
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="footer-widget">
-            <h4>About Us</h4>
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Testimonials</a></li>
-              <li><a href="#">Pricing</a></li>
-            </ul>
-            <ul>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Testimonials</a></li>
-              <li><a href="#">Pricing</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="footer-widget">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><a href="#">Free Apps</a></li>
-              <li><a href="#">App Engine</a></li>
-              <li><a href="#">Programming</a></li>
-              <li><a href="#">Development</a></li>
-              <li><a href="#">App News</a></li>
-            </ul>
-            <ul>
-              <li><a href="#">App Dev Team</a></li>
-              <li><a href="#">Digital Web</a></li>
-              <li><a href="#">Normal Apps</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="footer-widget">
-            <h4>About Our Company</h4>
-            <div class="logo">
-              <img src="assets/images/white-logo.png" alt="">
-            </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-          </div>
-        </div>
-        <div class="col-lg-12">
-          <div class="copyright-text">
-            <p>Copyright © 2022 Chain App Dev Company. All Rights Reserved. 
-          <br>Design: <a href="https://templatemo.com/" target="_blank" title="css templates">TemplateMo</a><br>
-        
-          Distributed By: <a href="https://themewagon.com/" target="_blank" title="Bootstrap Template World">ThemeWagon</a>
-        </p>
-          </div>
-        </div>
-      </div>
-    </div>
 
 <?= $this->endSection() ?>
