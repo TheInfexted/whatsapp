@@ -60,6 +60,10 @@
     <?= $this->renderSection('content') ?>
     <!-- ***** Main Content End ***** -->
 
+    <!-- ***** Footer Area Start ***** -->
+    <?= $this->include('partials/footer') ?>
+    <!-- ***** Footer Area End ***** -->
+
     <!-- Scripts -->
     <script src="<?= base_url('assets/vendor/jquery/jquery.min.js') ?>"></script>
     <script src="<?= base_url('assets/vendor/bootstrap/js/bootstrap.bundle.min.js') ?>"></script>
