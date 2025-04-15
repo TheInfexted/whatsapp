@@ -80,7 +80,7 @@
                         <div class="payment-buttons mt-4 text-center">
                             <form action="<?= base_url('subscribe/process/' . $package['package_id']) ?>" method="post" class="d-inline">
                                 <?= csrf_field() ?>
-                                <button type="submit" class="btn btn-primary btn-lg mx-2">Confirm and Pay</button>
+                                <button type="submit" class="btn btn-primary btn-lg mx-2">Confirm and Subscribe</button>
                             </form>
                             <a href="<?= base_url('subscribe/cancel') ?>" class="btn btn-secondary btn-lg mx-2">Cancel</a>
                         </div>

@@ -15,10 +15,13 @@
                         <li class="scroll-to-section"><a href="#about">About</a></li>
                         <li class="scroll-to-section"><a href="#pricing">Pricing</a></li>
                         <?php if (session()->get('logged_in')): ?>
-                        <li>
-                            <div class="gradient-button">
-                                <a href="<?= base_url('logout') ?>"><i class="fa fa-sign-out-alt"></i> Logout (<?= session()->get('username') ?>)</a>
-                            </div>
+                        <li class="submenu">
+                            <a href="#"><i class="fa fa-user"></i> <?= session()->get('username') ?></a>
+                            <ul>
+                                <li><a href="<?= base_url('user/dashboard') ?>"><i class="fa fa-tachometer-alt"></i> Dashboard</a></li>
+                                <li><a href="<?= base_url('user/transactions') ?>"><i class="fa fa-history"></i> Transactions</a></li>
+                                <li><a href="<?= base_url('logout') ?>"><i class="fa fa-sign-out-alt"></i> Logout</a></li>
+                            </ul>
                         </li>
                         <?php else: ?>
                         <li>

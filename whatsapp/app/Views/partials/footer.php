@@ -15,8 +15,8 @@
           <h4>Contact Us</h4>
           <p>Stellar Suites, Jln Puteri 4/7, Bandar Puteri,
           47100 Puchong, Selangor</p>
-          <p><a href="#">+6 012 855 9967</a></p>
-          <p><a href="#">sales@julang-network.com</a></p>
+          <p><a href="tel:+60128559967">+60128559967</a></p>
+          <p><a href="mailto:sales@julang-network.com">sales@julang-network.com</a></p>
         </div>
       </div>
       <div class="col-lg-3">

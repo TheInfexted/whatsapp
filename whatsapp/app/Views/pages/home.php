@@ -248,10 +248,9 @@
                                                                 I managed to send thousands of messages without any issues. Customer support is also very responsive. Highly recommended!"</p>
                                                         </div>
                                                         <div class="down-content">
-                                                            <img src="<?= base_url('assets/img/client-image.jpg') ?>" alt="">
                                                             <div class="right-content">
                                                                 <h4>B*** Y***</h4>
-                                                                <span>CEO, Financial Services</span>
+                                                                <span>Financial Services</span>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -270,7 +269,6 @@
                                                                 A few minor improvements could make it perfect, but it's already way better than other services I've tried."</p>
                                                         </div>
                                                         <div class="down-content">
-                                                            <img src="<?= base_url('assets/img/client-image.jpg') ?>" alt="">
                                                             <div class="right-content">
                                                                 <h4>D*** Y***</h4>
                                                                 <span>Marketing Director</span>
@@ -292,7 +290,6 @@
                                                                 The analytics feature is a big plus too. Just wish there were a few more templates to choose from."</p>
                                                         </div>
                                                         <div class="down-content">
-                                                            <img src="<?= base_url('assets/img/client-image.jpg') ?>" alt="">
                                                             <div class="right-content">
                                                                 <h4>M*** L***</h4>
                                                                 <span>Business Analyst</span>

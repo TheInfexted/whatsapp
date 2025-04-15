@@ -26,10 +26,11 @@ class TransactionModel extends Model
     protected $useTimestamps = true;
     protected $dateFormat    = 'datetime';
     protected $createdField  = 'created_date';
+    protected $updatedField  = '';
 
     // Validation
     protected $validationRules    = [
-        'username'      => 'required|is_not_unique[users.username]',
+        'username'      => 'required',
         'packages'      => 'required',
         'amount'        => 'required|numeric',
         'actual_amount' => 'required|numeric',
@@ -57,11 +58,18 @@ class TransactionModel extends Model
             'packages'      => $packageName,
             'amount'        => $amount,
             'charges'       => $charges,
-            'actual_amount' => $amount + $charges,
-            'payment_status' => 'pending'
+            'actual_amount' => $amount,
+            'payment_status' => 'pending',
+            'created_date'  => date('Y-m-d H:i:s') // Explicitly set the created_date
         ];
         
-        return $this->insert($data);
+        try {
+            $this->insert($data);
+            return $this->insertID();
+        } catch (\Exception $e) {
+            log_message('error', 'Failed to create transaction: ' . $e->getMessage());
+            return false;
+        }
     }
     
     /**
@@ -86,6 +94,27 @@ class TransactionModel extends Model
      */
     public function updateStatus($transactionId, $status)
     {
-        return $this->update($transactionId, ['payment_status' => $status]);
+        try {
+            return $this->update($transactionId, ['payment_status' => $status]);
+        } catch (\Exception $e) {
+            log_message('error', 'Failed to update transaction status: ' . $e->getMessage());
+            return false;
+        }
+    }
+
+    /**
+     * Get user transactions with package details
+     * 
+     * @param string $username
+     * @return array
+     */
+    public function getUserTransactionsWithDetails($username)
+    {
+        return $this->select('transactions.*, packages.package_name, packages.valid_period')
+                    ->join('packages', 'packages.package_name = transactions.packages', 'left')
+                    ->where('transactions.username', $username)
+                    ->where('transactions.payment_status', 'completed')
+                    ->orderBy('transactions.created_date', 'DESC')
+                    ->findAll();
     }
 }
