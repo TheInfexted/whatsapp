@@ -1944,7 +1944,12 @@ responsive
 --------------------------------------------- 
 */
 
-
+/* Add this to your CSS */
+@media (max-width: 767px) {
+  .hide-on-mobile {
+      display: none !important;
+  }
+}
 
 @media (max-width: 1200px) {
   .header-area .main-nav .logo h4 {

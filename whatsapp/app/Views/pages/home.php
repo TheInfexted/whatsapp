@@ -324,28 +324,52 @@
             </div>
             
             <!-- Featured pricing plan here -->
-            <div class="col-lg-4 offset-lg-4">
-                <div class="pricing-item-pro">
-                    <span class="price">RM188</span>
-                    <h4>Professional Plan</h4>
-                    <div class="icon">
-                        <img src="<?= base_url('assets/img/pricing-table-01.png') ?>" alt="">
+            <!-- Replace your current pricing section with this -->
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6">
+                    <div class="pricing-item-pro">
+                        <span class="price">RM188</span>
+                        <h4>Professional Plan</h4>
+                        <div class="icon">
+                            <img src="<?= base_url('assets/img/pricing-table-01.png') ?>" alt="">
+                        </div>
+                        <ul>
+                            <li>12 Months Plan</li>
+                            <li>24/7 Customer Service</li>
+                            <li>Custom bulk-import contact book</li>
+                            <li>Blast Sending</li>
+                            <li>Campaign Features</li>
+                            <li>UNLIMITED Sends</li>
+                            <li>Up to 10 Devices in Routing</li>
+                        </ul>
+                        <div class="border-button">
+                            <a href="<?= base_url('pricing') ?>">View All Plans</a>
+                        </div>
                     </div>
-                    <ul>
-                        <li>12 Months Plan</li>
-                        <li>24/7 Customer Service</li>
-                        <li>Custom bulk-import contact book</li>
-                        <li>Blast Sending</li>
-                        <li>Campaign Features</li>
-                        <li>UNLIMITED Sends</li>
-                        <li>Up to 10 Devices in Routing</li>
-                    </ul>
-                    <div class="border-button">
-                        <a href="<?= base_url('pricing') ?>">View All Plans</a>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="pricing-item-pro">
+                        <span class="price">RM250</span>
+                        <h4>Basic Plan</h4>
+                        <div class="icon">
+                            <img src="<?= base_url('assets/img/pricing-table-01.png') ?>" alt="">
+                        </div>
+                        <ul>
+                            <li>6 Months Plan</li>
+                            <li>24/7 Customer Service</li>
+                            <li>Custom bulk-import contact book</li>
+                            <li>Blast Sending</li>
+                            <li>Campaign Features</li>
+                            <li>UNLIMITED Sends</li>
+                            <li>Up to 5 Devices in Routing</li>
+                        </ul>
+                        <div class="border-button">
+                            <a href="<?= base_url('pricing') ?>">View All Plans</a>
+                        </div>
                     </div>
                 </div>
             </div>
-            
         </div>
     </div>
 </div>

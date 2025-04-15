@@ -19,7 +19,7 @@
           <p><a href="mailto:sales@julang-network.com">sales@julang-network.com</a></p>
         </div>
       </div>
-      <div class="col-lg-3">
+      <div class="col-lg-3 hide-on-mobile">
         <div class="footer-widget">
           <h4>About Us</h4>
           <ul>
@@ -31,22 +31,23 @@
           </ul>
         </div>
       </div>
-      <div class="col-lg-3">
+      
+      <div class="col-lg-3 hide-on-mobile">
         <div class="footer-widget">
-          <h4>Useful Links</h4>
-          <ul>
-            <li><a href="https://www.julang-network.com/">Julang Network</a></li>
-          </ul>
+          <h4>Payment Methods</h4>
+          <div>
+            <img src="<?= base_url('assets/img/payment-methods.png') ?>" alt="payment methods">
+          </div>
         </div>
       </div>
       <div class="col-lg-3">
         <div class="footer-widget">
-          <h4>About Our Company</h4>
+          <h4>About Our Website</h4>
           <div class="logo">
-            <img src="<?= base_url('assets/img/julang-logo.png') ?>" alt="">
+            <img src="<?= base_url('assets/img/q360logo.png') ?>" alt="">
           </div>
-          <p>Julang Network is a software house that builds custom web, mobile, and cloud solutions. 
-            We help businesses grow with innovative, scalable, and user-focused digital products.</p>
+          <p>Q360 is a smart automation tool designed to streamline WhatsApp message sending. 
+            It helps businesses save time, stay connected, and boost communication efficiency with scheduled and automated messaging.</p>
         </div>
       </div>
       <div class="col-lg-12">
