@@ -3,7 +3,7 @@
 <?php $this->section('content'); ?>
 
 <!-- Main Banner Area Start -->
-<div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
+<div id="home" class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
