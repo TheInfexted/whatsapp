@@ -22,5 +22,10 @@ $routes->get('about', 'AboutController::index');
 // Pricing routes
 $routes->get('pricing', 'PricingController::index');
 
+// Subscription routes
+$routes->get('subscribe/(:num)', 'SubscribeController::index/$1');
+$routes->post('subscribe/process/(:num)', 'SubscribeController::process/$1');
+$routes->get('subscribe/cancel', 'SubscribeController::cancel');
+
 // Testimonials route
 $routes->get('testimonials', 'TestimonialsController::index');

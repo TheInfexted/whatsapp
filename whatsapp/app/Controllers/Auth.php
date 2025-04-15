@@ -44,11 +44,11 @@ class Auth extends BaseController
                 'email' => $user['email']
             ]);
 
-            return redirect()->to('/')->with('message', 'Successfully logged in!');
+            return redirect()->to('/');
         }
         
         // Login failed
-        return redirect()->back()->withInput()->with('error', 'Invalid username/email or password');
+        return redirect()->back()->withInput();
     }
 
     public function register()
@@ -94,7 +94,7 @@ class Auth extends BaseController
                 'email' => $email
             ]);
             
-            return redirect()->to('/')->with('message', 'Successfully registered! Welcome to our app.');
+            return redirect()->to('/');
         }
         
         // Registration failed
@@ -104,6 +104,6 @@ class Auth extends BaseController
     public function logout()
     {
         session()->remove(['logged_in', 'user_id', 'username', 'email']);
-        return redirect()->to('/')->with('message', 'You have been logged out successfully.');
+        return redirect()->to('/');
     }
 }

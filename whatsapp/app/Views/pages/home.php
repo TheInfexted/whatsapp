@@ -322,19 +322,20 @@
                 <div class="section-heading">
                     <h4>We Have The Best <em>Prices</em> For Your Business</h4>
                     <img src="<?= base_url('assets/img/heading-line-dec.png') ?>" alt="">
-                    <p>Choose the plan that fits your needs and budget</p>
+                    <p>Choose the plan that fits your needs and budget. All pricings listed are before subject to 8% SST.</p>
                 </div>
             </div>
             
             <!-- Featured pricing plan here -->
             <div class="col-lg-4 offset-lg-4">
                 <div class="pricing-item-pro">
-                    <span class="price">RM500</span>
+                    <span class="price">RM188</span>
                     <h4>Professional Plan</h4>
                     <div class="icon">
                         <img src="<?= base_url('assets/img/pricing-table-01.png') ?>" alt="">
                     </div>
                     <ul>
+                        <li>12 Months Plan</li>
                         <li>24/7 Customer Service</li>
                         <li>Custom bulk-import contact book</li>
                         <li>Blast Sending</li>

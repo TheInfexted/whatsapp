@@ -5,7 +5,7 @@
 <div class="service-details section" style="padding-top: 180px">
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 offset-lg-2">
+            <div class="col-lg-8-lg-2">
                 <div class="section-heading wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
                     <h4><?= $service['name'] ?></h4>
                     <img src="<?= base_url('assets/img/heading-line-dec.png') ?>" alt="">
@@ -34,10 +34,10 @@
             </div>
             <div class="col-lg-6">
                 <div class="service-image">
-                    <img src="<?= base_url('assets/img/' . $service['class'] . '-detail.jpg') ?>" alt="<?= $service['name'] ?>" class="img-fluid rounded">
+                    <img src="<?= base_url('assets/img/' . $service['class'] . '-detail.png') ?>" alt="<?= $service['name'] ?>" class="img-fluid rounded" style="width: 50px; height: 50px;">
                 </div>
                 
-                <div class="service-cta mt-4 p-4 bg-light rounded">
+                <div class="service-cta mt-4 p-4">
                     <h4>Need More Information?</h4>
                     <p>Our team is ready to answer any questions you might have about this service.</p>
                     <div class="border-button">
@@ -62,7 +62,7 @@
         
         <div class="row">
             <!-- Related services would go here -->
-            <div class="col-lg-12 text-center mt-4">
+            <div class="col-lg-12 mt-4">
                 <div class="gradient-button">
                     <a href="<?= base_url('services') ?>">View All Services</a>
                 </div>
