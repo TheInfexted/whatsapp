@@ -56,8 +56,8 @@
             <div class="col-lg-3">
                 <div class="service-item first-service">
                     <div class="icon"></div>
-                    <h4>App Maintenance</h4>
-                    <p>Our team ensures your applications run smoothly with regular updates, bug fixes, and performance optimizations.</p>
+                    <h4>API Support</h4>
+                    <p>Unlock powerful connectivity with our robust API support. Easily integrate our messaging platform into your existing systems and workflows.</p>
                     <div class="text-button">
                         <a href="<?= base_url('services/1') ?>">Read More <i class="fa fa-arrow-right"></i></a>
                     </div>
@@ -76,8 +76,8 @@
             <div class="col-lg-3">
                 <div class="service-item third-service">
                     <div class="icon"></div>
-                    <h4>Multi Workflow Idea</h4>
-                    <p>We help design flexible, scalable workflows that adapt to your team's needs, improving productivity across every project.</p>
+                    <h4>Multiple Devices</h4>
+                    <p>We provide the option of adding up to 10 Devices per routing in one account to provide you with better work efficiency.</p>
                     <div class="text-button">
                         <a href="<?= base_url('services/3') ?>">Read More <i class="fa fa-arrow-right"></i></a>
                     </div>
@@ -112,14 +112,14 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="box-item">
-                            <h4><a href="<?= base_url('about') ?>">Maintance Problems</a></h4>
-                            <p>We quickly diagnose and fix system issues to ensure your services stay online without disruption.</p>
+                            <h4><a href="<?= base_url('about') ?>">Message Delivery Assurance</a></h4>
+                            <p>We ensure reliable delivery of your messages with tracking, and status reports to guarantee communication success.</p>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="box-item">
                             <h4><a href="<?= base_url('about') ?>">24/7 Support &amp; Help</a></h4>
-                            <p>Our expert team is available around the clock to assist you with any questions or urgent problems.</p>
+                            <p>Our expert team is available around the clock to assist you with any questions or urgent problems so ensure a seemless experience.</p>
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -130,8 +130,8 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="box-item">
-                            <h4><a href="<?= base_url('about') ?>">Co. Development</a></h4>
-                            <p>Partner with us for collaborative solutions that drive innovation, streamline workflows, and boost your business.</p>
+                            <h4><a href="<?= base_url('about') ?>">Advanced Analytics</a></h4>
+                            <p>Gain insights with detailed reports on message history, and message blasting to optimize your communication strategies.</p>
                         </div>
                     </div>
                     <div class="col-lg-12">
@@ -139,7 +139,6 @@
                         <div class="gradient-button">
                             <a href="<?= base_url('pricing') ?>">Start Using Our Services Today!</a>
                         </div>
-                        <span>*No Credit Card Required</span>
                     </div>
                 </div>
             </div>
@@ -343,7 +342,7 @@
                             <li>Up to 10 Devices in Routing</li>
                         </ul>
                         <div class="border-button">
-                            <a href="<?= base_url('pricing') ?>">View All Plans</a>
+                            <a href="<?= base_url('pricing') ?>">View Plan Details</a>
                         </div>
                     </div>
                 </div>
@@ -365,7 +364,7 @@
                             <li>Up to 5 Devices in Routing</li>
                         </ul>
                         <div class="border-button">
-                            <a href="<?= base_url('pricing') ?>">View All Plans</a>
+                            <a href="<?= base_url('pricing') ?>">View Plan Details</a>
                         </div>
                     </div>
                 </div>

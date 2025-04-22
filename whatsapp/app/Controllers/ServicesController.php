@@ -40,8 +40,8 @@ class ServicesController extends BaseController
         return [
             [
                 'id' => 1,
-                'name' => 'App Maintenance',
-                'short_description' => 'Regular updates, bug fixes, and performance optimizations',
+                'name' => 'API Support',
+                'short_description' => 'Unlock powerful connectivity with our robust API support. Easily integrate our messaging platform into your existing systems and workflows.',
                 'icon' => 'service-icon-01.png',
                 'class' => 'first-service'
             ],
@@ -54,8 +54,8 @@ class ServicesController extends BaseController
             ],
             [
                 'id' => 3,
-                'name' => 'Multi Workflow Idea',
-                'short_description' => 'Flexible, scalable workflows that adapt to your team\'s needs',
+                'name' => 'Multiple Devices Support',
+                'short_description' => 'We provide the option of adding up to 10 Devices per routing in one account to provide you with better work efficiency.',
                 'icon' => 'service-icon-03.png',
                 'class' => 'third-service'
             ],
@@ -74,17 +74,19 @@ class ServicesController extends BaseController
         $services = [
             1 => [
                 'id' => 1,
-                'name' => 'App Maintenance',
-                'short_description' => 'Regular updates, bug fixes, and performance optimizations',
-                'description' => 'Our team ensures your applications run smoothly with regular updates, bug fixes, and performance optimizations. We proactively monitor your system to prevent issues before they affect your users.',
+                'name' => 'API Support',
+                'short_description' => 'Powerful connectivity, Robust API Support, Easy integration.',
+                'description' => 'Unlock powerful connectivity with our robust API support. Easily integrate our messaging platform into your existing systems and workflows.',
                 'icon' => 'service-icon-01.png',
                 'class' => 'first-service',
                 'features' => [
-                    'Regular software updates',
-                    'Bug tracking and resolution',
-                    'Performance monitoring',
-                    'Security patches',
-                    'Database optimization'
+                    'Send and schedule WhatsApp messages via API',
+                    'Support for text, image, video, and document messages',
+                    'Webhook support for message status updates (sent, delivered, read)',
+                    'Secure API authentication with token-based access',
+                    'Detailed API documentation and usage examples',
+                    'Message queue management and delivery tracking',
+                    'Multi-user and device management through API',
                 ]
             ],
             2 => [
@@ -104,17 +106,19 @@ class ServicesController extends BaseController
             ],
             3 => [
                 'id' => 3,
-                'name' => 'Multi Workflow Idea',
-                'short_description' => 'Flexible, scalable workflows that adapt to your team\'s needs',
-                'description' => 'We help design flexible, scalable workflows that adapt to your team\'s needs, improving productivity across every project. Our custom solutions are designed to grow with your business.',
+                'name' => 'Multiple Devices Support',
+                'short_description' => 'Up to 10 Devices per account for better efficiency.',
+                'description' => 'We provide the option of adding up to 10 Devices per routing in one account to provide you with better work efficiency.',
                 'icon' => 'service-icon-03.png',
                 'class' => 'third-service',
                 'features' => [
-                    'Custom workflow development',
-                    'Process automation',
-                    'Team collaboration tools',
-                    'Scalable architecture',
-                    'Integration with existing systems'
+                    'Simultaneous message sending across multiple devices',
+                    'Real-time synchronization between devices',
+                    'Shared access for team collaboration on campaigns',
+                    'Easy management of multiple user profiles and devices',
+                    'Device-level message tracking and analytics',
+                    'Scalable infrastructure to support growing teams and workflows',
+                    'Seamless integration with team management tools'
                 ]
             ],
             4 => [
